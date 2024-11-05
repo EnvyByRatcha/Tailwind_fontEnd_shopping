@@ -1,11 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#f5f5f5]">
+    <!---nav-->
+
+    <div class="bg-[#f7452e]">
+      <div class="mx-auto max-w-7xl pt-1 px-4">
+        <div class="flex justify-between text-white text-sm">
+          <div class="flex flex-row gap-2">
+            <div>Seller Centre<span class="ml-2">|</span></div>
+            <div>เริ่มต้นขายสินค้า<span class="ml-2">|</span></div>
+            <div>ดาวน์โหลด<span class="ml-2">|</span></div>
+            <div>ติดตามเราบน</div>
+            <div>
+              <button><i class="fa-brands fa-facebook mr-2"></i></button
+              ><button>
+                <i class="fa-brands fa-square-instagram mr-2"></i></button
+              ><button><i class="fa-brands fa-line"></i></button>
+            </div>
+          </div>
+          <div class="flex flex-row gap-4">
+            <div>
+              <span><i class="fa-regular fa-bell mr-2"></i></span>การแจ้งเตือน
+            </div>
+            <div>
+              <span><i class="fa-regular fa-circle-question mr-2"></i></span
+              >ช่วยเหลือ
+            </div>
+            <div>
+              <span><i class="fa-solid fa-globe mr-2"></i></span>ไทย<span
+                ><i class="fa-solid fa-chevron-down ml-2"></i
+              ></span>
+            </div>
+            <div>
+              สมัครใหม่
+              <span class="ml-2">|</span>
+            </div>
+            <div>เข้าสู่ระบบ</div>
+          </div>
+        </div>
+        <div class="grid grid-cols-12 gap-4 pt-6 pb-4">
+          <div
+            class="flex col-span-2 text-2xl lg:text-4xl text-white justify-center"
+          >
+            <span><i class="fa-solid fa-bag-shopping mr-2"></i></span>
+            <div>MyShop</div>
+          </div>
+          <div class="flex col-span-8 justify-center">
+            <input
+              class="w-full pl-2 rounded-l-lg"
+              placeholder="ลูกค้าใหม่ รับเลยโค้ดส่วนลดหรือโต้ดส่งฟรี"
+            />
+            <button class="border-4 border-white px-4 text-white rounded-r-lg">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+          <div
+            class="col-span-2 flex justify-center items-center text-white text-2xl"
+          >
+            <button>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---banner-->
+
+    <div class="mx-auto max-w-7xl pt-6 px-4">
+      <div class="flex flex-col">
+        <div class="grid grid-cols-3 gap-2">
+          <div class="col-span-2">
+            <img
+              class="object-cover w-full h-full"
+              src="https://cf.shopee.co.th/file/th-11134258-7rasc-m27ovaiagl9g47_xxhdpi"
+            />
+          </div>
+          <div class="grid grid-rows-2 gap-2">
+            <div>
+              <img
+                src="https://cf.shopee.co.th/file/th-11134258-7rasg-m264hc11yqxt93_xhdpi"
+              />
+            </div>
+            <div>
+              <img
+                src="https://cf.shopee.co.th/file/th-11134258-7rask-m1dkgcsrocs355_xhdpi"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---menu-->
+
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="grid grid-cols-5 md:grid-cols-9 text-center shadow-lg pt-6 pb-6 bg-white">
+        <a href="#" class="flex flex-col items-center gap-2"
+          ><i
+            class="fa-solid fa-plug rounded-full border-2 px-4 py-3 text-xl text-blue-600"
+          ></i>
+          <p class="text-sm">อิเล็กทรอนิกส์</p></a
+        >
+        <a href="#" class="flex flex-col items-center gap-2"
+          ><i
+            class="fa-solid fa-coins rounded-full border-2 px-4 py-3 text-xl text-[#f7452e]"
+          ></i>
+          <p class="text-sm">เก็บคอยน์แลกโค้ด</p></a
+        >
+        <a href="#" class="flex flex-col items-center gap-2"
+          ><i
+            class="fa-solid fa-house-circle-check rounded-full border-2 px-3 py-3 text-xl text-green-600"
+          ></i>
+          <p class="text-sm">ช้อปปี้โฮม</p></a
+        >
+        <a href="#" class="flex flex-col items-center gap-2"
+          ><i
+            class="fa-solid fa-thumbs-up rounded-full border-2 px-4 py-3 text-xl text-[#f7452e]"
+          ></i>
+          <p class="text-sm">ช้อปปี้ถูกชัวร์</p></a
+        >
+        <a href="#" class="flex flex-col items-center gap-2"
+          ><i
+            class="fa-solid fa-shopping-cart rounded-full border-2 px-3 py-3 text-xl text-blue-600"
+          ></i>
+          <p class="text-sm">ซูเปอร์มาร์เก็ต</p></a
+        >
+        <a href="#" class="flex flex-col items-center gap-2"
+          ><i
+            class="fa-solid fa-truck rounded-full border-2 px-3 py-3 text-xl text-green-600"
+          ></i>
+          <p class="text-sm">ส่งฟรี/โค้ดลด</p></a
+        >
+        <a href="#" class="flex flex-col items-center gap-2"
+          ><i
+            class="fa-solid fa-fire-flame-curved rounded-full border-2 px-4 py-3 text-xl text-[#f7452e]"
+          ></i>
+          <p class="text-sm">#ช้อปปี้ป้ายยา</p></a
+        >
+        <a href="#" class="flex flex-col items-center gap-2"
+          ><i
+            class="fa-solid fa-bag-shopping rounded-full border-2 px-4 py-3 text-xl text-[#f23333]"
+          ></i>
+          <p class="text-sm">#Shopee Mall</p></a
+        >
+        <a href="#" class="flex flex-col items-center gap-2"
+          ><i
+            class="fa-solid fa-check rounded-full border-2 px-4 py-3 text-xl text-[#f7452e]"
+          ></i>
+          <p class="text-sm">Shopping Choice</p></a
+        >
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-7xl mt-6 px-4">
+      <div class="flex- flex-row bg-white rounded-sm shadow-lg">
+        <div class="p-4 ">หมวดหมู่</div>
+        <div class="grid grid-cols-5 md:grid-cols-10 ">
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/dad0e4f4f94ab4a75392ebf587af5bf0@resize_w320_nl.webp"/>
+            <p class="text-sm">ความงามและของใช้ส่วนตัว</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/f06f0abdf6bb5a65fdc6edf73101b820@resize_w320_nl.webp"/>
+            <p class="text-sm">เสื้อผ้าแฟชั่นผู้ชาย</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/a879f390f7cfe48a7e9816a3fb489e98@resize_w320_nl.webp"/>
+            <p class="text-sm">กระเป๋า</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/f84c1aede5e30931407b670435bfa3db@resize_w320_nl.webp"/>
+            <p class="text-sm">รองเท้าผู้หญิง</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/fe6165488b5fc7910e00b99dc7188759@resize_w320_nl.webp"/>
+            <p class="text-sm">นาฬิกาและแว่นตา</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/th-11134258-7r98u-lx7uy1sj276731@resize_w320_nl.webp"/>
+            <p class="text-sm">อุปกรณ์อิเล็กทรอนิกส์</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/th-11134258-7r98y-lx7uver450og9e@resize_w320_nl.webp"/>
+            <p class="text-sm">เครื่องใช้ไฟฟ้าภายในบ้าน</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/b34493d3548c702f96f52cbc8a937f3b@resize_w320_nl.webp"/>
+            <p class="text-sm">กล้องและอุปกรณ์ถ่ายภาพ</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/82c330eb4a6202dd2e359cad3a2bc289@resize_w320_nl.webp"/>
+            <p class="text-sm">ของเล่น สินค้าแม่และเด็ก</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/6ab5237b2f3716e46ee71d0cea1a23e8@resize_w320_nl.webp"/>
+            <p class="text-sm">สัตว์เลี้ยง</p>
+          </div>
+
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/c3283d2ba2ac9b209b3e09c1b1d54279@resize_w320_nl.webp"/>
+            <p class="text-sm">กลุ่มผลิตภัณฑ์เพื่อสุขภาพ</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/14eb48c96d2af38b43e73bd438cb4418@resize_w320_nl.webp"/>
+            <p class="text-sm">เสื้อผ้าแฟชั่นผู้หญิง</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/ed11c3aa687100c467130e42812e3af1@resize_w320_nl.webp"/>
+            <p class="text-sm">รองเท้าผู้ชาย</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/68b87384345976cb3735b129ecec92d7@resize_w320_nl.webp"/>
+            <p class="text-sm">เครื่องประดับ</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/b680b0e115248f8b7cf4c1dab5240563@resize_w320_nl.webp"/>
+            <p class="text-sm">เครื่องใช้ในบ้าน</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/398408c2f8ab9de41f1e06e75edb38bc@resize_w320_nl.webp"/>
+            <p class="text-sm">มือถือ และ แท็บเล็ต</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/c1c3ef22b08e9e92a820238900edc982@resize_w320_nl.webp"/>
+            <p class="text-sm">คอมพิวเตอร์และแล็ปท็อป</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/ef3225f54d2d375247837391cf743e93@resize_w320_nl.webp"/>
+            <p class="text-sm">อาหารและเครื่องดื่ม</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/d798b34734fdbd0c5b186563453fd9db@resize_w320_nl.webp"/>
+            <p class="text-sm">
+              กีฬาและกิจกรรมกลางแจ้ง</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-2">
+            <img class="object-cover" src="https://down-th.img.susercontent.com/file/a1e2db8724dcd09ace3371b5d0785140@resize_w320_nl.webp"/>
+            <p class="text-sm">เกมและอุปกรณ์เสริม</p>
+          </div>
+
+          
+          
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ยานยนต์
+
